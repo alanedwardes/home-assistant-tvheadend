@@ -1,0 +1,15 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "description": "Please enter a the TVHeadend URL.",
+        "data": {
+          "tvheadend_url": "http://user:example@tvheadend:9981/"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "[%key:common::config_flow::abort::already_configured_device%]"
+    }
+  }
+}
