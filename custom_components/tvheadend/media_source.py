@@ -146,6 +146,6 @@ class TVHeadendMediaSource(MediaSource):
             self.config.data["tvheadend_url"]
             + "/stream/channel/"
             + item.identifier
-            + "?profile=pass",
-            "application/vnd.apple.mpegurl",
+            + "?profile=matroska",
+            "video/x-matroska",
         )
