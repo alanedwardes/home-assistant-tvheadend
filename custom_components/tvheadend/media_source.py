@@ -147,5 +147,5 @@ class TVHeadendMediaSource(MediaSource):
             + "/stream/channel/"
             + item.identifier
             + "?profile=pass",
-            "video/mp4",
+            "application/vnd.apple.mpegurl",
         )
