@@ -145,7 +145,6 @@ class TVHeadendMediaSource(MediaSource):
         return PlayMedia(
             self.config.data["tvheadend_url"]
             + "/stream/channel/"
-            + item.identifier
-            + "?profile=pass",
-            "video/mp2t",
+            + item.identifier,
+            "video/mkv",
         )
